@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(29,34,44);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.header-topo {
+    background-color: black;
+}
+
+header {
+    align-items: center;
+    
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-principal {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-principal li{
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    height: 100%;
+    color: white;
+    padding: 20px 10px;
+}
+
+
+.menu-principal li:hover {
+    border-bottom: 2px #fa962a solid;
+    color: #fa962a;
+}
+
+.selected {
+    border-bottom: 2px #fa962a solid;
+}
+
+.menu-principal li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    
+}
+
+button {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+    color: white;
+    background-color: #fa962a;
+    height: 40px;
+    border: none;
+}
+
+
+.menu-perfil {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-perfil a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-perfil p {
+    background-color: #2f353a;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin: 0 15px;
+    display: flex;
+}
+
+.menu-perfil p span {
+    color: red;
+    margin-right: 5px;
+}
+
+.meu-perfil {
+    width: 20%;
+}
+
+.perfil img {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px #fff solid
+}
+
+.principal {
+    display: flex;
+    margin: 40px 10px; 
+    justify-content: center;
+}
+
+.editar-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.editar-perfil:hover {
+    background-color: #73818f;
+}
+
+.editar-perfil img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+
+.nome-lvl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.nome-lvl span{
+    font-size: 12px;
+    display: block;
+    background-color: #00af00;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.dados-pessoais p {
+    font-size: 14px;
+}
+main {
+    width: 70%;
+}
+
+.xp {
+    background-color: #00af00;
+    border-radius: 5px;
+    height: 15px;
+}
+
+.forca-perfil {
+    padding: 20px;
+}
+
+.progresso-perfil{
+    width: 100%;
+    background-color: #fa962a;
+    margin-bottom: 20px;
+}
+
+.emblema {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+.emblema p {
+    color: #73818f;
+    margin-left: 10px;
+}
+
+.bootcamps {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.meu-bootcamp {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-bootcamp {
+    width: 80px;
+    padding-right: 10px;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 15px;
+   
+}
+
+main section {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.cards {
+    display: flex;
+    
+}
+
+.card {
+    width: 25%;
+    height: 250px;
+    border: 1px solid #73818f;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.banner {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.feed header {
+    margin-top: 15px;
+}
+
+.feed ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+.feed a:hover {
+    border-bottom: 3px solid #6610F2;
+    color: #6610F2;
+}
+
+.colocado {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.mini-perfil {
+    width: 50px;
+}
+
+
+.mini-perfil-xp {
+    margin-left: 5px;
+}
